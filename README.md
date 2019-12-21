@@ -9,16 +9,17 @@
  Django is works on the principle of don’t repeat your yourself. For this database we are building dynamic web app.
  Since we are using python we are also able to plot graph pie charts and we are also using FusionChart.
  We are also using pandas for arranging data. Our web app consists of several forms for user requirements so that user can submit there feedback.
- ![Screenshots][user](Screenshot (8).png)
+
  #_________________________________________________________# 
- COMMANDS 
- 1.pip install -r required.txt 
- 2.Install MongoDb Compass and run in localhost 
- 3.go to downloaded folder
- 4.python manage.py makemigrations 
- 5.python manage.py migrate 
- 6.python manage.py createsuperuser 
- 7.python manage.py collectstaic 
- 8.python manage.py runserver 
- https://127.0.0.1:8000/  
+ COMMANDS <p>
+ 1. pip install -r required.txt </p><p>
+ 2. Install MongoDb Compass and run in localhost  </p><p>
+ 3. go to downloaded folder </p><p>
+ 4. python manage.py makemigrations  </p><p>
+ 5. python manage.py migrate  </p><p>
+ 6. python manage.py createsuperuser  </p><p>
+ 7. python manage.py collectstatic  </p><p>
+ 8. python manage.py runserver  </p><p>
+ 9. https://127.0.0.1:8000/  </p>
  #__________________________________________________________#
+<img src =" 
