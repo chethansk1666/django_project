@@ -4,8 +4,6 @@ from datetime import datetime
 from django.template import RequestContext
 from .models import donate,citizen,region,required,medicine,food,spent_on,stay
 from django.db.models import signals
-from bokeh.plotting import figure, output_file, show 
-from bokeh.embed import components
 from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib import messages
 from time import sleep
