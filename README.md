@@ -9,6 +9,7 @@
  Django is works on the principle of don’t repeat your yourself. For this database we are building dynamic web app.
  Since we are using python we are also able to plot graph pie charts and we are also using FusionChart.
  We are also using pandas for arranging data. Our web app consists of several forms for user requirements so that user can submit there feedback.
+ ![Screenshot][main](Screenshot (8).png)
  #_________________________________________________________# 
  COMMANDS 
  1.pip install -r required.txt 
