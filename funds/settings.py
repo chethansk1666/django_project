@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 from django.contrib.messages import constants as message_constants
 from django.contrib.messages import constants as messages
-
+import urllib.parse
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -89,7 +89,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'fund',
-       
+        'HOST': "mongodb+srv://dhanush:" +
+                urllib.parse.quote_plus("Dhanushp@1") +
+                "@cluster0-eco5n.mongodb.net/test?retryWrites=true&w=majority",
+        'USER': 'dhanush',
+        'PASSWORD': 'Dhanushp@1',
     }
 }
 
